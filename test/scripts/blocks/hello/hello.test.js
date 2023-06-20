@@ -24,7 +24,7 @@ describe('The hello block', () => {
     const hello = document.querySelector('#all-copy');
     await initHello(hello);
     const p = hello.querySelector('p');
-    expect(p.textContent).to.equal('Chris');
+    expect(p.textContent).to.equal(' Chris');
     expect(window.gsap).to.exist;
   });
 
